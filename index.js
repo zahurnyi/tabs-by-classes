@@ -16,7 +16,7 @@ class createTabs {
 			buttonTab.textContent = tab.name;
 			buttonTab.classList.add(tab.class);
 
-			const tabContent = document.createElement("p");
+			const tabContent = document.createElement("span");
 			tabContent.textContent = tab.text;
 			tabContent.style.display = 'none';
 			tabContent.classList.add('tab-content')

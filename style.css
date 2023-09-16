@@ -13,9 +13,12 @@ body {
 }
 
 .tab-content {
+	text-align: center;
+	display: inline-block;
   border: 5px solid #424264;
   font-size: 25px;
   font-weight: 600;
+	padding: 8px 0px;
 }
 
 .button-tab {
