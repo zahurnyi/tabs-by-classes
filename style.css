@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.container-tabs {
+  max-width: 500px;
+  height: 100%;
+  border: 10px solid green;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.tab-content {
+  border: 5px solid #424264;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.button-tab {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 32px;
+}
